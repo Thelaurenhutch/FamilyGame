@@ -219,7 +219,7 @@ const gameData = {
             "No. Oh God, What have I done?": [0, []]
         } 
     },
- 
+};
 const personalities = { 
     "Kevin": 0,
     "Patti": 0,
