@@ -38,7 +38,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "Run in there. I have to see.": [6,["Patti", "Kevin", "Holland", "Madison"]],
-            "Yell back \"STOP YELLING!\"":[6, ["Lauren", "Logan", "Faith"]]
+            "Yell back \"STOP YELLING!\"":[6, ["Lauren", "Logan", "Faith"]],
             "Take one last whiff in this room before you go": [6, ["Zach", "One of the Kids"]]
         }
     },
@@ -49,7 +49,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "Run in there. I have to see.": [6,["Patti", "Kevin", "Holland", "Madison"]],
-            "Yell back \"STOP YELLING!\"":[6, ["Lauren", "Logan", "Faith"]]
+            "Yell back \"STOP YELLING!\"":[6, ["Lauren", "Logan", "Faith"]],
             "Take one last whiff in this room before you go": [6, ["Zach", "One of the Kids"]]
         }
     },
@@ -61,7 +61,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "Welp, I'm out.": [7,["Faith", "Lauren", "Holland", "Logan"]],
-            "I immediately assume Ginny did this":[7, ["Patti", "One of the Kids", "Madison"]]
+            "I immediately assume Ginny did this":[7, ["Patti", "One of the Kids", "Madison"]],
             "A mystery is afoot and we must investigate!": [8, ["Kevin", "Zach"]]
         }
     },
@@ -72,7 +72,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "These floors are filthy! They really need to sweep more": [8,["Holland", "Lauren"]],
-            "There is a shiny glint in the pile, you investigate further":[8, ["Patti", "One of the Kids", "Madison"]]
+            "There is a shiny glint in the pile, you investigate further":[8, ["Patti", "One of the Kids", "Madison"]],
             "The sheer amount of fur that appears to be leading up to the pile": [8, ["Kevin", "Zach", "Faith", "Logan"]]
         }
     },
@@ -83,7 +83,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "Kevin- i mean he already has the costume": [9,["Holland", "Lauren"]],
-            "Logan- he's the only one that can truly be non-partisan":[20, ["Patti", "One of the Kids", "Madison"]]
+            "Logan- he's the only one that can truly be non-partisan":[20, ["Patti", "One of the Kids", "Madison"]],
             "Faith- idk fuck it this might be fun": [30, ["Kevin", "Zach"]]
         }
     },
@@ -105,7 +105,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "The fur. Seems like the simplest, and I have a drink to finish": [11,["Patti", "Logan", "Madison", "Zach"]],
-            "The phone. Clearly, someone is hiding something":[12, ["Holland", "Faith"]]
+            "The phone. Clearly, someone is hiding something":[12, ["Holland", "Faith"]],
             "The pointing child is eery let's start there": [13, ["Lauren", "One of the Kids", "Kevin"]]
         }
     },
@@ -117,7 +117,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "Let's just plug this one in and see what happens": [14,["Logan", "Holland", "Kevin", "Zach"]],
-            "We need to delve into the chaos and all separate to find our phones:[20, ["Lauren", "Faith"]]
+            "We need to delve into the chaos and all separate to find our phones":[20, ["Lauren", "Faith"]],
             "Forget it, let's just follow the fur": [11, ["Patti", "One of the Kids", "Logan"]]
         }
     },
@@ -128,7 +128,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "Starting looking around for a source of light": [15,["Zach"]],
-            "Cry":[16, ["Holland", "Faith"]]
+            "Cry":[16, ["Holland", "Faith"]],
             "Start Screaming-- that'll help": [17, ["Holland", "Faith"]]
         }
     },

@@ -38,6 +38,11 @@
             justify-content: center;
             /* overflow-y: auto;   */
         }
+        .instructions-container {
+            display: none;
+            text-align: center;
+            margin-top: 10%;
+        }
 
         .title {
             font-size: 21px;
@@ -79,11 +84,11 @@
             font-family: 'PixelFont', sans-serif;
             font-size: 18px; /* Adjust font size to be smaller */
             padding: 1vh 1vw; /* Adjust padding based on viewport height and width */
-            border: 0.5px solid #b94747e; /* Solid border */
+            border: 0.5px solid #b94747; /* Solid border */
             background-color: #e4e2dd; /* White background */
             cursor: pointer; /* Pointer cursor on hover */
             transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
-        }
+        } /* Add this closing brace */
 
         @media (hover: hover) {
             .choice-button:hover {
@@ -95,6 +100,7 @@
         }
         .story-text {
             font-size: 20px;
+            color: #ffffff;
             margin-bottom: 1rem; /* Space above the choices container */
         /* padding-bottom: 5rem; */
         }
@@ -122,6 +128,21 @@
         <div class="title">The Bloodline: A Choose Your Own Adventure Game</div> 
         <img id="homescreen" style="padding-bottom: 15px" src="smaller_images/homepage.png" alt="Story Image"/>
         <a href="#" class="start-button" onclick="startGame()">Start</a>
+
+            <!-- Instructions Screen -->
+    <div id="instructions-screen" class="instructions-container">
+        <h2>Instructions</h2>
+        <p>Welcome to the game!</p>
+        <p> </p>
+        <p>Your goal is to solve the mystery.</p>
+        <p> </p>
+        <p>Depending on the choices you make, </p>
+        <p>the culprit changes every time.</p>
+        <p> </p>
+        <p>So make your choices wisely.</p>
+        <p>Good Luck, Detective.</p>
+        <button class="start-button" onclick="startGame()">Start Game</button>
+    </div>
         
         <div class="game-container" id="game-container">
             <div class ="story-text" id="story-text"></div>
