@@ -171,12 +171,42 @@ const gameData = {
             "I'm gonna mind my business and go back inside":[19, ["Holland", "Faith"]]
         }
     },
-
-
-
-
+   "19":{
+        "text": "You go back to the family and its over test test test tes", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "ahhhhh": [69420,["Zach"]]
+        }
+    },
+   "11":{
+        "text": "test test test test", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "ahhhhh": [69420,["Zach"]]
+        }
+    },
+   "20":{
+        "text": "test test test test", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "ahhhhh": [69420,["Zach"]]
+        }
+    },
+   "30":{
+        "text": "test test test test", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "ahhhhh": [69420,["Zach"]]
+        }
+    },
 
     
+
+
+
+
+
+
     
     "69420": {
         "text": "You yell out to the family you have solved the mystery. \
