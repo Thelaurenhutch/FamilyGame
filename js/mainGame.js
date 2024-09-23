@@ -83,7 +83,7 @@ const gameData = {
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "Kevin- i mean he already has the costume": [9,["Holland", "Lauren"]],
-            "Logan- he's the only one that can truly be non-partisan":[20, ["Patti", "One of the Kids", "Madison"]],
+            "Logan- he's the only one that can truly be non-partisan":[50, ["Patti", "One of the Kids", "Madison"]],
             "Faith- idk fuck it this might be fun": [30, ["Kevin", "Zach"]]
         }
     },
@@ -158,12 +158,13 @@ const gameData = {
                 You still can't see. What do you do?",
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
-            "Go outside": [18,["Zach"]],
-            "Go back to the family":[19, ["Holland", "Faith"]]
+            "Go outside to get some air": [18,["Zach"]],
+            "Scream louder": [20, ["Faith"]],
+            "Go back to the family":[19, ["Holland"]]
         }
     },
    "18":{
-        "text": "You shine a light into the bush where the weird noise is coming from \
+        "text": "A small amount of light peeks into the bush where the weird noise is coming from \
                 it's Zach! What's he doing?", 
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
@@ -171,8 +172,83 @@ const gameData = {
             "I'm gonna mind my business and go back inside":[19, ["Holland", "Faith"]]
         }
     },
+    "20":{
+        "text": "You start screaming louder \
+        Suddenly in your ear you hear Faith. \
+        \"Goddamn WHY\" ",
+        "image" :"smaller_images/mad_gouda.png",
+"choices" : {
+            "Why is she so close to me?--ITS HER PHONE!": [21, [Faith]],
+            "For dramatic effect." :[19, [Faith], [Holland]],
+            "Oh sorry, let's go find the family" : [19, [Faith], [Holland]]
+}
+    },
+    "21":{
+        "text": "You start to swat around at Faith \
+        You hear the unquestionable sound of a phone hitting the floor ", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "start feeling around on the ground to get it back": [22,["Faith"]],
+            "tackle faith!!!!": [22,["Faith"]]
+        }
+    },
+    "22":{
+        "text": "You hit the ground and immediatley notice a different smell \
+        Tequila. It's kind of... familiar... more than just a bad friday night. ", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "Hold Faith down and smell her": [23,["Faith"]],
+            "Go find your way back into the room with the goop": [24,["Faith"]]
+        }
+    }, 
+    "23":{
+        "text": "Faith does not consent to this. \
+        But you got a good whiff. It's like the goop! ", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "I don't know exactly but faith might have something to do with the goop. I'll just accuse her!": [25,["Faith"]],
+            "NOW Go find your way back into the room with the goop": [24,["Faith"]]
+        }
+    }, 
+    "25":{
+        "text": "Do you want to figure out why?\
+        Or just accuse her and be done with it? ", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "Ill investigate. Go back to the goop!": [24,["Faith"]],
+            "IT'S ALWAYS FAITH": [69420,["Faith"]]
+        }
+    }, 
+    "24":{
+        "text": "You get back to the goop, just as Kevin turns the lights back on.\
+        What do you want to do? ", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "Look inside the goop to see any more clues": [25,["Faith"]],
+            "START TEARING THINGS APART!!!": [26,["Faith"]]
+        }
+    }, 
+    "25":{
+        "text": "You look closely into the goop you start to notice.. is that a lime peel?\
+        ... and ice? Was this a *gasp* margarita? ", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "FAITH DROPPED HER MARGARITA! IT WAS HER!": [69420,["Faith"]],
+            "okay it might be a marg but like wtf is the fur": [11,["Faith"]]
+        }
+    }, 
+    "26":{
+        "text": "You knock over a drink and a goop like substance pours on the floor\
+        you compare it to the goop.. is that a lime peel?\
+        ... and ice? Was this a *gasp* margarita? ", 
+        "image" : "smaller_images/mad_gouda.png",
+"choices" : {
+            "FAITH DROPPED HER MARGARITA! IT WAS HER!": [69420,["Faith"]],
+            "okay it might be a marg but like wtf is the fur": [11,["Faith"]]
+        }
+    }, 
    "19":{
-        "text": "You go back to the family and its over test test test tes", 
+        "text": "You go back to the family. ", 
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
             "ahhhhh": [69420,["Zach"]]
@@ -185,7 +261,7 @@ const gameData = {
             "ahhhhh": [69420,["Zach"]]
         }
     },
-   "20":{
+   "50":{
         "text": "test test test test", 
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
